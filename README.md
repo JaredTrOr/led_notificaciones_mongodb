@@ -3,13 +3,13 @@
 La API realizada en express hace un guardado de las notificaciones enviadas por firebase en la aplicación de led_smartphone_smartwatch y led_smartphone_smartphone, su propósito es guardar las notificaciones enviadas y recibidas dentro de MongoDB Atlas para poder observarlas en el dispositvo del smartwatch
 
 
-HOSTING 
+## HOSTING 
 https://led-notificaciones-mongodb.onrender.com/not
 
-Obtener notificaciones
+## Obtener notificaciones
 GET https://led-notificaciones-mongodb.onrender.com/not/get-notificaciones
 
-Guardas notificación
+## Guardar notificación
 POST https://led-notificaciones-mongodb.onrender.com/not/create-notificacion
 'Content-type': 'application/json'
 
