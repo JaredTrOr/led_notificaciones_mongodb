@@ -13,11 +13,13 @@ GET https://led-notificaciones-mongodb.onrender.com/not/get-notificaciones
 POST https://led-notificaciones-mongodb.onrender.com/not/create-notificacion
 'Content-type': 'application/json'
 
+~~~
 {
-  'tituloMensaje': message.notification!.title.toString(),
-  'cuerpoMensaje': message.notification!.body.toString(),
-  'hora': _dateTimeHelper.getFormattedTime(),
-  'fecha': _dateTimeHelper.getFormattedDate()
+  'tituloMensaje': titulo -> String,
+  'cuerpoMensaje': cuerpoMensaje -> String,
+  'hora': hora -> String,
+  'fecha': fecha -> String
 }
+~~~
 
 ![Captura de pantalla 2024-07-05 162310](https://github.com/JaredTrOr/led_notificaciones_mongodb/assets/115369767/f9fe21f2-fa05-46ea-97f7-d5000159ca06)
